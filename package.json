@@ -1,0 +1,13 @@
+{
+  "name": "hardhat-project",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.3"
+  },
+  "scripts": {
+    "deploy":"hardhat ignition deploy ./ignition/modules/KunVote.ts --network localhost",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "compile": "hardhat compile"
+  }
+}
